@@ -37,7 +37,7 @@ The algorithm takes into account specific factors such as perceived size, color,
 Although each of these factors is considered independently, the algorithm combines them to assess the probability of an object being a particular plant.
 
 - Naive Bayes leverages the assumption of independence among the factors, which simplifies the calculations and allows the algorithm to work efficiently with large datasets. 
-It is particularly well-suited for tasks like document classification, email spam filtering, sentiment analysis, 
+- It is particularly well-suited for tasks like document classification, email spam filtering, sentiment analysis, 
 and many other applications where the factors can be considered separately but still contribute to the overall classification.
 
 ## 4. Decision Tree
@@ -51,7 +51,7 @@ and many other applications where the factors can be considered separately but s
 - The algorithm's structure makes it straightforward to understand and interpret the decision-making process. 
 - By asking a sequence of questions and following the corresponding branches, decision trees enable us to classify or predict outcomes based on the data's characteristics.
 
-This simplicity and interpretability make decision trees valuable for various applications in machine learning, especially when dealing with complex datasets.
+- This simplicity and interpretability make decision trees valuable for various applications in machine learning, especially when dealing with complex datasets.
 
 ## 5. Random Forest
 
