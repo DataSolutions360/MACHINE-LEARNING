@@ -1,5 +1,7 @@
 # Top 10 Machine Learning Algorithms(2023)
 
+# SUPERVISED:
+
 ## 1. Linear regression
    
 - Linear regression is a supervised learning algorithm used for predicting and forecasting values that fall within a continuous range, such as sales numbers or housing prices.
@@ -80,5 +82,61 @@ KNN can estimate the value of an unknown data point based on the average or medi
 
 - Random forests address a common issue called "overfitting" that can occur with individual decision trees. 
 - Overfitting happens when a decision tree becomes too closely aligned with its training data, making it less accurate when presented with new data.
+
+## 7. Support Vector Machine (SVM)
+
+- A support vector machine (SVM) is a supervised learning algorithm commonly used for classification and predictive modeling tasks.
+- SVM algorithms are popular because they are reliable and can work well even with a small amount of data.
+- SVM algorithms work by creating a decision boundary called a "hyperplane." In two-dimensional space, this hyperplane is like a line that separates two sets of labeled data. 
+
+- The goal of SVM is to find the best possible decision boundary by maximizing the margin between the two sets of labeled data. 
+- It looks for the widest gap or space between the classes. Any new data point that falls on either side of this decision boundary is classified based on the labels in the training dataset.
+
+- It's important to note that hyperplanes can take on different shapes when plotted in three-dimensional space, allowing SVM to handle more complex patterns and relationships in the data.
+
+# UNSUPERVISED:
+
+## 8. K-means
+
+- K-means is an unsupervised learning algorithm commonly used for clustering and pattern recognition tasks.
+- It aims to group data points based on their proximity to one another. Similar to K-nearest neighbor (KNN),
+- K-means utilizes the concept of proximity to identify patterns or clusters in the data.
+
+- Each of the clusters is defined by a centroid, a real or imaginary center point for the cluster. 
+- K-means is useful on large data sets, especially for clustering, though it can falter when handling outliers.
+
+- K-means is particularly useful for large datasets and can provide insights into the inherent structure of the data by grouping similar points together. 
+- It has applications in various fields such as customer segmentation, image compression, and anomaly detection.
+
+
+
+## 9. Apriori
+
+- Apriori is an unsupervised learning algorithm used for predictive modeling, particularly in the field of association rule mining. 
+
+- The Apriori algorithm was initially proposed in the early 1990s as a way to discover association rules between item sets. 
+- It is commonly used in pattern recognition and prediction tasks, such as understanding a consumer's likelihood of purchasing one product after buying another.
+
+- The Apriori algorithm works by examining transactional data stored in a relational database.
+- It identifies frequent itemsets, which are combinations of items that often occur together in transactions.
+- These itemsets are then used to generate association rules. For example, if customers frequently buy product A and product B together,
+  an association rule can be generated to suggest that purchasing A increases the likelihood of buying B.
+
+- By applying the Apriori algorithm, analysts can uncover valuable insights from transactional data,
+  enabling them to make predictions or recommendations based on observed patterns of itemset associations.
+
+## Gradient Boosting
+
+- Gradient boosting algorithms employ an ensemble method, which means they create a series of "weak" models that are iteratively improved upon to form a strong predictive model.
+- The iterative process gradually reduces the errors made by the models, leading to the generation of an optimal and accurate final model.
+
+- The algorithm starts with a simple, naive model that may make basic assumptions, such as classifying data based on whether it is above or below the mean. 
+- This initial model serves as a starting point.
+
+- In each iteration, the algorithm builds a new model that focuses on correcting the mistakes made by the previous models. 
+- It identifies the patterns or relationships that the previous models struggled to capture and incorporates them into the new model.
+
+- Gradient boosting is effective in handling complex problems and large datasets. It can capture intricate patterns and dependencies that may be missed by a single model. 
+- By combining the predictions from multiple models, gradient boosting produces a powerful predictive model.
 
 
